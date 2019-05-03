@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Ejercicio5</title>
+</head>
+<body>
+<?php
+
+echo "<form method='POST' action='eje5.php'>";
+echo "Valor A: <input type='text' name='valorA' size=10><br><br>";
+echo "Valor B: <input type='text' name='valorB' size=10><br>";
+echo "<input type='submit' name='ok' value='enviar'>";
+echo "</form>";
+
+?>
+</body>
+</html>

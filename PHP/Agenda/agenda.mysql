@@ -1,0 +1,29 @@
+CREATE TABLE detalle (
+    
+    cod_detalle int(10) NOT NULL default '0',
+    fecha_inicio datetime NOT NULL default '0000-00-00 00:00:00',
+    fecha_fin datetime NOT NULL default '0000-00-00 00:00:00',
+    descripcion text,
+    titulo varchar(100) default NULL,
+    cod_nivel smallint(1) NOT NULL default '1',
+    idusuario int(10) NOT NULL default '0',
+    PRIMARY KEY (cod_detalle)
+  );
+  
+  CREATE TABLE nivel_importancia (
+    
+    cod_nivel smallint(6) NOT NULL default '0',
+    desc_nivel varchar(100) default NULL,
+    color varchar(7) default NULL,
+    PRIMARY KEY (cod_nivel)
+    );
+  
+  CREATE TABLE usuarios(
+    
+    idusuario smallint(6) NOT NULL default '0',
+    nombre varchar(100) default NULL,
+    password varchar(255) default NULL,
+    fecha_ingreso date default NULL,
+    email varchar(255) default NULL,
+    PRIMARY KEY (idusuario)
+    );
