@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Create DataBase</title>
+</head>
+<body>
+<?php
+
+$dbhost = 'localhost:3036';
+$dbuser = 'root';
+$dbpass = 'slack142';
+$conn = mysql_connect($dbhost, $dbuser, $dbpass);
+
+if(!$conn)
+{
+	die('Could not connect');
+}
+
+echo 'Connect Successfully <br>';
+$sql = 'CREATE DATABASE breakTime';
+$retval = mysql_query($sql, $conn);
+
+if(!$retval)
+{
+	die ('Could not create database' .mysql_error());
+}
+
+echo 'Database BREAKTIME created Succesfully';
+mysql_close($conn);
+
+?>
+</body>
+</html>

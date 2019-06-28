@@ -1,0 +1,34 @@
+   <html>
+    <head>
+    <title>Alta/Administracion de Usuarios</title>
+    <link rel="stylesheet"  type="text/css" media="screen" href="estilo.css" />
+    </head>
+    <body>
+    <div class="container">
+    <div class="main">
+    <h2>Alta/Administracion de Usuarios</h2>
+    
+    <form action="formGestionUsuarios.php" method="post">
+    
+    <label>Nombre Usuario</label>
+    <input name="nombreUsuario" type="text" placeholder="Nombre Apellido" required />
+    
+    <label>Nickname</label>
+    <input name="nickname" type="text" placeholder="nickname" required />
+    
+    <label>Password</label>
+    <input name="password1" type="password" placeholder="password" required />
+    
+    <label>Repita Password</label>
+    <input name="password2" type="password" placeholder="password" required />
+    
+    <center>
+    <input type="reset" value="Borrar" />
+    <input type="submit" value="Agregar" />
+    </center>
+    </div>
+    </div>
+    </form>
+    
+</body>
+</html>

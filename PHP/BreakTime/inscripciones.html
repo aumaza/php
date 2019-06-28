@@ -1,0 +1,86 @@
+   <html>
+    <head>
+    <title>Inscripciones</title>
+    <link rel="stylesheet"  type="text/css" media="screen" href="estilo.css" />
+    </head>
+    <body>
+    <div class="container">
+    <div class="main">
+    <h2>Inscripciones</h2>
+    
+    <form action="formInscripciones.php" method="post">
+    
+    <label>Nombre y Apellido</label>
+    <input name="nombreApellido" type="text" placeholder="Nombre Apellido" required /><br>
+    
+    
+    <label>DNI</label><br>
+    <input name="dni" type="text" placeholder="00000000" required />
+    
+    <label>Fecha Nacimiento</label>
+    <input name="fNac" type="date" placeholder="dddd/mm/aaaaa" required />
+    
+    <label>Direccion</label>
+    <input name="direccion" type="text" placeholder="direccion" required />
+    
+    
+    <label>Localidad</label>
+    <select name="localidad">
+    <option value="">----Seleccionar----</option>
+    <option value="CABA" value="">CABA </option>
+    <option value="Avellaneda" value="">Avellaneda</option>
+    <option value="Gerli" value="">Gerli </option>
+    <option value="Lanus" value="">Lanus </option>
+    <option value="Remedios de Escalada" value="">Remedios de Escalada</option>
+    <option value="Banfield" value="">Banfield </option>
+    <option value="Lomas de Zamora" value="">Lomas de Zamora </option>
+    <option value="Temperley" value="">Temperley </option>
+    <option value="Adrogue" value="">Adrogue </option>
+    <option value="San Jose" value="">San Jose </option>
+    <option value="Burzaco" value="">Burzaco </option>
+    </select>
+    
+    <label>Telefono</label>
+    <input name="telefono" type="text" placeholder="4444-4444" required />
+    
+    <label>Movil</label>
+    <input name="movil" type="text" placeholder="15-4444-4444" required />
+    
+    <label>Email</label>
+    <input name="email" type="email" placeholder="xxx@xxx.com" required />
+    
+    <label>Descripcion<span>*</span></label><br>
+    <textarea name="descripcion" rows="4" cols="50" class="estilotextarea" placeholder="En caso de padecer o haber padecido alguna enfermadad, por favor especifiquelo."></textarea>
+    <br><br>
+    
+    <label>Nombre Pariente</label>
+    <input name="nombrePariente" type="text" placeholder="nombre apellido" required />
+    
+    <label>Parentezco</label>
+    <select name="parentezco">
+    <option value="">----Seleccionar----</option>
+    <option value="Padre" value="">Padre</option>
+    <option value="Madre" value="">Madre</option>
+    <option value="Abuelo" value="">Abuelo</option>
+    <option value="Abuela" value="">Abuela</option>
+    <option value="Tio" value="">Tio</option>
+    <option value="Tia" value="">Tia</option>
+    <option value="Hermano" value="">Hermano</option>
+    <option value="Hermana" value="">Hermana</option>
+    <option value="Hijo" value="">Hijo</option>
+    <option value="Hija" value="">Hija</option>
+    </select>
+    
+    <label>Telefono Contacto</label>
+    <input name="telContacto" type="text" placeholder="4444-4444" required />
+    
+    <center>
+    <input type="reset" value="Borrar" />
+    <input type="submit" value="Agregar" />
+    </center>
+    </div>
+    </div>
+    </form>
+    
+</body>
+</html>

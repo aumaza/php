@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <title>Carga de Datos</title>
+    <link rel="stylesheet" type="text/css" media="screen"
+      href="estilo.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <h2>Carga de Datos</h2>
+        <br>
+			<center>        
+        <a href="inscripciones.html"><input value="Inscripciones" type="button" ></a><br>
+        <hr> <a href="resta.html"><input value="Tipo de Actividad" type="button" ></a>
+        <hr> <a href="estilos.html"><input value="Estilos" type="button" ></a>
+        <hr> <a href="packs.html"><input value="Packs" type="button" ></a>
+        <hr> <a href="factorial.html"><input value="Inscripcion Actividad" type="button" ></a>
+        <hr> <a href="altaDocente.html"><input value="Alta de Docentes" type="button" ></a>
+        <hr> <a href="factorial.html"><input value="Dias y Horarios" type="button" ></a>
+        </center>
+      </div>
+    </div>
+  </body>
+</html>

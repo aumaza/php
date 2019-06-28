@@ -1,0 +1,26 @@
+   <html>
+    <head>
+    <title>Tipo Actividad</title>
+    <link rel="stylesheet"  type="text/css" media="screen" href="estilo.css" />
+    </head>
+    <body>
+    <div class="container">
+    <div class="main">
+    <h2>Tipo Actividad</h2>
+    
+    <form action="formActividad.php" method="post">
+    
+    <label>Descripcion</label>
+    <input name="descripcion" type="text" placeholder="descripcion" required /><br>
+    
+        
+    <center>
+    <input type="reset" value="Borrar" />
+    <input type="submit" value="Agregar" />
+    </center>
+    </div>
+    </div>
+    </form>
+    
+</body>
+</html>
